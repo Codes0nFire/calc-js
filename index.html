@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+         <div class="calculator">
+            <input class="display" type="text" readonly>
+            <div class="buttonContainer">
+                <button onclick=" dv='';document.querySelector('.display').value=dv;">C</button>
+                <button onclick="  dv+='1';document.querySelector('.display').value=dv; "; >1</button>
+                <button onclick=" dv+='2';document.querySelector('.display').value=dv;" >2</button>
+                <button onclick=" dv+='+';document.querySelector('.display').value=dv;" >+</button>
+                <button onclick=" dv+='3';document.querySelector('.display').value=dv;">3</button>
+                <button onclick=" dv+='4';document.querySelector('.display').value=dv;" >4</button>
+                <button onclick=" dv+='-';document.querySelector('.display').value=dv;" >-</button>
+                <button onclick=" dv+='5';document.querySelector('.display').value=dv;">5</button>
+                <button onclick=" dv+='6';document.querySelector('.display').value=dv;">6</button>
+                <button onclick=" dv+='*';document.querySelector('.display').value=dv;" >*</button>
+                <button onclick=" dv+='7';document.querySelector('.display').value=dv;" >7</button>
+                <button onclick=" dv+='8';document.querySelector('.display').value=dv;" >8</button>
+                <button onclick=" dv+='/';document.querySelector('.display').value=dv;" >/</button>
+                <button onclick=" dv=eval(dv);document.querySelector('.display').value=dv;" >=</button>
+                <button onclick=" dv+='9';document.querySelector('.display').value=dv;">9</button>
+                <button onclick=" dv+='0';document.querySelector('.display').value=dv;" >0</button>
+                <button onclick=" dv+='.';document.querySelector('.display').value=dv;" >.</button>
+            </div>
+
+         </div>
+
+
+
+
+
+
+    </div>
+
+    
+
+
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>

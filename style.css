@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+
+    width: 35vw;
+    height: 70vh;
+    border: 1px solid white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 1vw;
+
+}
+
+.display{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:25px 20px;
+    width: 95%;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 20px;
+  
+}
+
+.buttonContainer{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 10px;
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:6vh;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  button:hover{
+    background:#fff;
+    color:#1AAB8A;
+  }
+  button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+  }
+  button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+
+  @media only screen and (max-width: 800px)
+  {
+
+    .main{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .calculator{
+    
+        width: 50vw;
+        height: 75vh;
+        border: 1px solid white;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        padding: 1vw;
+    
+    }
+    
+    .display{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding:25px 20px;
+        width: 95%;
+        background-color: transparent;
+        border: 1px solid white;
+        margin-bottom: 25px;
+        color: white;
+        font-size: 20px;
+      
+    }
+    
+    .buttonContainer{
+        /* background-color: red; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    button{
+        margin: 10px;
+        background:#1AAB8A;
+        color:#fff;
+        border:none;
+        position:relative;
+        height:6vh;
+        font-size:1.6em;
+        padding:0 2em;
+        cursor:pointer;
+        transition:800ms ease all;
+        outline:none;
+      }
+
+  }
+
+
+  @media only screen and (max-width: 1200px)
+  {
+
+    .main{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .calculator{
+    
+        width: 95vw;
+        height: 95vh;
+        border: 1px solid white;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        padding: 1vw;
+    
+    }
+    
+    .display{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding:25px 20px;
+        width: 95%;
+        background-color: transparent;
+        border: 1px solid white;
+        margin-bottom: 25px;
+        color: white;
+        font-size: 20px;
+      
+    }
+    
+    .buttonContainer{
+        /* background-color: red; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    button{
+        margin: 10px;
+        background:#1AAB8A;
+        color:#fff;
+        border:none;
+        position:relative;
+        height:6vh;
+        font-size:1.6em;
+        padding:0 2em;
+        cursor:pointer;
+        transition:800ms ease all;
+        outline:none;
+      }
+
+  }
+
+
+  
+
+
